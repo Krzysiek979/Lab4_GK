@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="600px" height="600px"
+viewBox="0 0 600 600"
+preserveAspectRatio="xMidYMid">
+
+
+<defs>
+<g id="a">
+	<polygon points="300,550 350,550 325,400"/> 
+</g>
+</defs>
+<defs>
+<g transform="scale(0.80 0.80) translate(80 105)" id="b">
+<rect x = "200" y = "395" width = "250" height = "20" fill="red" transform="rotate(25,325,405)" />
+<polygon points="485.04844339512096,471.6941869558779 451.1260466978157,498.74639560909117 408.82550990706335,489.0915741234015 390,450 408.8255099070633,410.9084258765985 451.12604669781575,401.25360439090883 485.04844339512096,428.3058130441221" 		style="fill: black">
+			<animateTransform attributeName="transform"
+									  attributeType="XML"
+									  type="rotate"								  
+									   from="0 440 450"
+									  to="360 440 450"
+									  dur="5s"
+									  repeatCount="indefinite"
+									 />
+		</polygon>
+<polygon points="265.04844339512096,371.6941869558779 231.12604669781572,398.74639560909117 188.82550990706332,389.0915741234015 170,350 188.82550990706332,310.9084258765985 231.12604669781575,301.25360439090883 265.04844339512096,328.3058130441221" 		style="fill: black">
+			<animateTransform attributeName="transform"
+									  attributeType="XML"
+									  type="rotate"								  
+									   from="0 220 350"
+									  to="360 220 350"
+									  dur="5s"
+									  repeatCount="indefinite"
+									 />
+		</polygon>	
+</g>
+</defs>
+<use xlink:href="#b" />
+<use xlink:href="#a" fill="blue"/>
+<use xlink:href="#b" transform="scale(0.60 0.60) translate(450 -200)"/>
+<use xlink:href="#a" transform="scale(0.60 0.60) translate(450 -200)" fill="green"/>
+<use xlink:href="#b" transform="scale(0.50 0.50) translate(-50 -100)"/>
+<use xlink:href="#a" transform="scale(0.50 0.50) translate(-50 -100)" fill="pink"/>
+</svg>
